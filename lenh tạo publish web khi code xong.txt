@@ -1,0 +1,7 @@
+nhớ cài NODE.JS nhé !
+
+ - npm install --global surge
+-surge\
+- rồi sau đó nhập : email va pass github bạn vào
+- rồi cứ nhấn enter
+

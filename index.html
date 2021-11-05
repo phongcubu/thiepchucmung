@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            if (!$('.envelope').hasClass('open')) {
+                $('.envelope').click(function() {
+                    $(this).removeClass('new').addClass('open');
+                });
+            }
+
+        });
+    </script>
+    <title>Happ Birthday </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="envelope new">
+            <div class="front">
+                <div class="mail">
+                    <p>Happy Birthday</p>
+                    <p style="font-size: 17px;"> Nhấn vô đây nhoa !!!</p>
+                </div>
+            </div>
+            <div class="back">
+                <div class="letter">
+                    <marquee behavior="alternate" direction="" style="font-size: 33px; color: rgb(247, 127, 113); ">Happy Birthday</marquee>
+                    <p>Chúc <b>Ngọc</b> sinh nhật vui vẻ ,hạnh phúc và luôn yêu đời <b>^.^ </b> <br> Chúc bạn đón tuổi mới với nhiều tiếng cười và nhiều món quà yêu thương nhất! </p>
+   
+                    <div class="box">
+                        <div class="cake">
+                            <div class="candle">
+                                <div class="fire"></div>
+                            </div>
+                        </div>
+                        <!--end div cake-->
+                    </div>
+                    <!--end div box-->
+                </div>
+                <!--end div letter-->
+                <div class="flip left-flip"></div>
+                <div class="flip right-flip"></div>
+                <div class="flip bottom-flip"></div>
+                <div class="flip top-flip"></div>
+            </div>
+            <!--end div back -->
+    
+    
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
